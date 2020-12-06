@@ -10,14 +10,9 @@ The following example uses a single-line comment as an explanation:
 
 ```sql
 -- Select all:
-SELECT * FROM customers;
-```
 
-The following example uses a single-line comment to ignore a statement:
-
-```sql
--- SELECT * FROM customers;
-SELECT * FROM products;
+SELECT * 
+FROM customers;
 ```
 
 ## Multi-line Comments
@@ -31,17 +26,22 @@ The following example uses a multi-line comment as an explanation:
 ```sql
 /* Select everything
 from the customers table */
-SELECT * FROM customers;
+
+SELECT * 
+FROM customers;
 ```
 
 The following example uses a multi-line comment to ignore many statements:
 
 ```sql
-/* SELECT * FROM customers;
-SELECT * FROM products;
-SELECT * FROM orders;
-SELECT * FROM categories; */
-SELECT * FROM suppliers;
+/* SELECT * 
+FROM customers;
+
+SELECT * 
+FROM products; */
+
+SELECT * 
+FROM orders;
 ```
 
 To ignore just a part of a statement, also use the `/*` `*/` comment.

@@ -32,14 +32,18 @@ Line doc comments beginning with exactly three slashes (`///`), and block doc co
 /// Foo
 ```
 
- ```rust
+This will turn into `#[doc="Foo"]`.
+
+```rust
 /**
    Bar
 */
 ```
  
-This will turn into `#[doc="Foo"]` and `#[doc="Bar"]`.
+This will turn into `#[doc="Bar"]`.
 
-Line comments beginning with `//!` and block comments `/*!` ... `*/` are doc comments that apply to the parent of the comment, rather than the item that follows. That is, they are equivalent to writing `#![doc="..."]` around the body of the comment. `//!` comments are usually used to document modules that occupy a source file.
+Line comments beginning with `//!` and block comments `/*!` ... `*/` are doc comments that apply to the parent of the comment, rather than the item that follows. That is, they are equivalent to writing `#![doc="..."]` around the body of the comment. 
+
+`//!` comments are usually used to document modules that occupy a source file.
 
 Isolated CRs (`\r`), i.e. not followed by LF (`\n`), are not allowed in doc comments.
