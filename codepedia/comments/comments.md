@@ -45,5 +45,3 @@ Other metadata includes:
 - The names of other people who have edited the program file so far
 - The URL of documentation about how to use the program
 - The name of the software license for this program file
-
-When an algorithm in some section of the program is based on a description in a book or other reference, comments can be used to give the page number and title of the book or Request for Comments or other reference.
