@@ -1,17 +1,15 @@
-# Comments
+# Comments Explained
 
 Our own code can quickly become difficult to understand when we return to it—sometimes only a few hours later! For this reason, it’s often useful to leave a note or reminder in our code for our future selves or other fellow developers.
 
 A _comment_ is an explanation or annotation in the source code of a computer program. They are added with the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters. 
-
-The syntax of comments in various programming languages varies considerably.
 
 Comments are generally formatted as either block comments (also called mulit-line comments) or line comments (also called inline comments or single-line comments):
 
 - _Block comments_ delimit a region of source code which may span multiple lines or a part of a single line. This region is specified with a start delimiter and an end delimiter.
 - _Line comments_ either start with a comment delimiter and continue until the end of the line, or in some cases, start at a specific column (character line offset) in the source code, and continue until the end of the line.
 
-Some programming languages employ both block and line comments with different comment delimiters. For example, C++ has block comments delimited by `/*` and `*/` that can span multiple lines and line comments delimited by `//`. Other languages support only one type of comment. For example, Ada comments are line comments: they start with `--` and continue to the end of the line.
+Some programming languages employ both block and line comments with different comment delimiters. For example, C/C++ has block comments delimited by `/*` and `*/` that can span multiple lines and line comments delimited by `//`. Other languages support only one type of comment. For example, Python comments are line comments: they start with `#` and continue to the end of the line.
 
 ## Uses
 

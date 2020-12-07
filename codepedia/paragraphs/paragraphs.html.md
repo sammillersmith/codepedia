@@ -1,4 +1,4 @@
-# Paragraph Element in HTML
+# HTML Paragraph Elements
 
 The `<p>` paragraph element contains and displays a block of text.
 

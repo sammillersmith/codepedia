@@ -7,6 +7,7 @@
     "Conditionals": ["conditionals"],
     "Loops": ["loops"],
     "Arrays": ["arrays"],
+    "Objects": ["objects"],
     "Functions": ["functions"],
     "Elements": ["elements"],
     "Attributes": ["attributes"],

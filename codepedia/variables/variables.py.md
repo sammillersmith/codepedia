@@ -1,4 +1,4 @@
-# Python Variables
+# Variables in Python
 
 A variable is used to store data that will be used by the program. This data can be a number, a string, a Boolean, a list or some other data type. Every variable has a name which can consist of letters, numbers, and the underscore character `_`.
 
