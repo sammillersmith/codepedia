@@ -22,9 +22,9 @@ body {
 
 With CSS, a color is most often specified by:
 
-- A valid color name - like "red"
-- A HEX value - like "#ff0000"
-- An RGB value - like "rgb(255,0,0)"
+- A valid color name (`red`)
+- A HEX value (`#ff0000)`
+- An RGB value (`rgb(255,0,0)`)
 
 ## Background Image
 

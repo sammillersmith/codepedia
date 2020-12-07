@@ -31,17 +31,19 @@ while i < 6:
 
 Python `for` loops can be used to iterate over and perform an action one time for each element in a list.
 
-Proper for loop syntax assigns a temporary value, the current item of the list, to a variable on each successive iteration: for <temporary value> in <a list>:
+Proper for loop syntax assigns a temporary value, the current item of the list, to a variable on each successive iteration: 
 
-for loop bodies must be indented to avoid an IndentationError.
-
+```py
+for <temporary value> in <a list>:
+```
+`for` loop bodies must be indented to avoid an IndentationError.
+```python
 dog_breeds = ["boxer", "bulldog", "shiba inu"]
  
 # Print each breed:
 for breed in dog_breeds:
   print(breed)
-Edit in Author
-
+```
 ## Nested Loops
 
 In Python, loops can be nested inside other loops. Nested loops can be used to access items of lists which are inside other lists. The item selected from the outer loop can be used as the list for the inner loop to iterate over.

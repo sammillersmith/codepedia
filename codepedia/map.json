@@ -11,6 +11,8 @@
     "Functions": ["functions"],
     "Elements": ["elements"],
     "Attributes": ["attributes"],
+    "Object-Oriented Programming": ["object_oriented_programming"],
+    "Low-Level Programming": ["low_level_programming"],
     "Headings": ["headings"],
     "Paragraphs": ["paragraphs"],
     "Formatting": ["formatting"],
@@ -26,6 +28,7 @@
     "Java": "java",
     "SQL": "sql",
     "Rust": "rust",
-    "Emojicode": "emojic"
+    "Emojicode": "emojic",
+    "Ruby": "ruby"
   }
 }
