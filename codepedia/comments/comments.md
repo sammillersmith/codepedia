@@ -1,6 +1,6 @@
 # Comments
 
-Our own code can quickly become difficult to understand when we return to it—sometimes only a few hours later! For this reason, it’s often useful to leave a note or reminder in our code for our future selves or other developers.
+Our own code can quickly become difficult to understand when we return to it—sometimes only a few hours later! For this reason, it’s often useful to leave a note or reminder in our code for our future selves or other fellow developers.
 
 A _comment_ is an explanation or annotation in the source code of a computer program. They are added with the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters. 
 
@@ -8,7 +8,7 @@ The syntax of comments in various programming languages varies considerably.
 
 Comments are generally formatted as either block comments (also called mulit-line comments) or line comments (also called inline comments or single-line comments):
 
-- _Block comments_ delimit a region of source code which may span multiple lines or a part of a single line. This region is specified with a start delimiter and an end delimiter. Some programming languages (such as MATLAB) allow block comments to be recursively nested inside one another, but others (such as Java) do not.
+- _Block comments_ delimit a region of source code which may span multiple lines or a part of a single line. This region is specified with a start delimiter and an end delimiter.
 - _Line comments_ either start with a comment delimiter and continue until the end of the line, or in some cases, start at a specific column (character line offset) in the source code, and continue until the end of the line.
 
 Some programming languages employ both block and line comments with different comment delimiters. For example, C++ has block comments delimited by `/*` and `*/` that can span multiple lines and line comments delimited by `//`. Other languages support only one type of comment. For example, Ada comments are line comments: they start with `--` and continue to the end of the line.
@@ -22,8 +22,6 @@ How best to make use of comments is subject to dispute; different commentators h
 Comments can be used to summarize code or to explain the programmer's intent. According to this school of thought, restating the code in plain English is considered superfluous; the need to re-explain code may be a sign that it is too complex and should be rewritten, or that the naming is bad.
 
 > "Good comments don't repeat the code or explain it. They clarify its intent. Comments should explain, at a higher level of abstraction than the code, what you're trying to do." (Steve McConnell)
-
-Comments may also be used to explain why a block of code does not seem to fit conventions or best practices. This is especially true of projects involving very little development time, or in bug fixing. For example:
 
 ### Debugging
 
@@ -41,7 +39,6 @@ Other metadata includes:
 
 - The name of the creator of the original version of the program file
 - The date when the first version was created
-- The name of the current maintainer of the program
 - The names of other people who have edited the program file so far
 - The URL of documentation about how to use the program
 - The name of the software license for this program file

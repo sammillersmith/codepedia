@@ -1,4 +1,4 @@
-# `<p>` Paragraph Element
+# Paragraph Element in HTML
 
 The `<p>` paragraph element contains and displays a block of text.
 
@@ -6,7 +6,7 @@ The `<p>` paragraph element contains and displays a block of text.
 <p>This is a block of text! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 ```
 
-## HTML Line Breaks
+## Line Breaks
 
 The HTML `<br>` element defines a line break.
 

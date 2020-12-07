@@ -1,6 +1,5 @@
 {
   "concepts": {
-    "Syntax": ["syntax"],
     "Comments": ["comments"],
     "Variables": ["variables"],
     "Data Types": ["data_types"],
@@ -10,7 +9,10 @@
     "Arrays": ["arrays"],
     "Functions": ["functions"],
     "Elements": ["elements"],
-    "Attributes": ["attributes"]
+    "Attributes": ["attributes"],
+    "Headings": ["headings"],
+    "Paragraphs": ["paragraphs"],
+    "Formatting": ["formatting"]
   },
   "languages": {
     "HTML": "html",
