@@ -1,4 +1,4 @@
-# Comments Explained
+# What is a Comment?
 
 Our own code can quickly become difficult to understand when we return to it—sometimes only a few hours later! For this reason, it’s often useful to leave a note or reminder in our code for our future selves or other fellow developers.
 

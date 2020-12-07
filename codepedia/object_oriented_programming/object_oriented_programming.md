@@ -1,4 +1,4 @@
-# What is Obeject-Oriented Programming?
+# What is Object-Oriented Programming?
 
 _Object-oriented programming (OOP)_ is a programming paradigm that allows you to package together data states and functionality to modify those data states, while keeping the details hidden away (like with the lightbulb). As a result, code with OOP design is flexible, modular, and abstract. This makes it particularly useful when you create larger programs.
 

@@ -1,4 +1,4 @@
-# Operators Expalained
+# What is an Operator?
 
 An _operator_ in a programming language is a symbol that tells the compiler or interpreter to perform specific mathematical, relational or logical operation and produce final result. 
 

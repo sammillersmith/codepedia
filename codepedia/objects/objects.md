@@ -1,4 +1,4 @@
-# Objects Explained
+# What is an Object?
 
 In computer science, an _object_ can be a variable, a data structure, a function, or a method, and as such, is a value in memory referenced by an identifier.
 
