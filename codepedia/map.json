@@ -13,7 +13,9 @@
     "Attributes": ["attributes"],
     "Headings": ["headings"],
     "Paragraphs": ["paragraphs"],
-    "Formatting": ["formatting"]
+    "Formatting": ["formatting"],
+    "Selectors": ["selectors"],
+    "Backgrounds": ["backgrounds"]
   },
   "languages": {
     "HTML": "html",
