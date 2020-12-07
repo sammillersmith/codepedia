@@ -57,11 +57,12 @@ export const HubEntries: React.FC<HubEntriesProps> = ({
       <Spacing size={2} />
 
       <Text as="p" fontSize="md">
-      👋 Welcome to Codepedia! Community-driven code documentations and glossary for popular programming languages and frameworks.
+        👋 Welcome to Codepedia! Community-driven code documentations and
+        glossary for popular programming languages and frameworks.
       </Text>
 
       <EntryPreviews
-        title="Cross-Language Concepts"
+        title="Language-Agnostic Concepts"
         onEntrySelect={onEntrySelect}
         entries={unfilteredEntries.filter((e) => !e.language)}
       />
