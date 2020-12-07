@@ -19,4 +19,8 @@ const StyledSidebar = styled(Container)`
   width: 20vw;
   flex-shrink: 0;
   padding-top: 1rem;
+
+  button span {
+    white-space: normal;
+  }
 `;

@@ -13,3 +13,11 @@ Comments can span single or multiple lines.
   multiple lines long.
 -->
 ```
+
+Comments are also great for debugging HTML, because you can comment out HTML lines of code, one at a time, to search for errors:
+
+```html
+<!-- Do not display this image at the moment
+<img border="0" src="pic_trulli.jpg" alt="Trulli">
+-->
+```

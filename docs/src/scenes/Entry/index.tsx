@@ -12,6 +12,8 @@ import { IStore } from "models";
 import { toTitleCase } from "../../helpers/title";
 import EntrySidebar from "./NavSidebar";
 import { EntryBody } from "./EntryBody";
+import { Loading } from '@codecademy/gamut-labs';
+import styled from '@emotion/styled';
 
 type EntryProps = RouteComponentProps & {
   concept?: string;
@@ -30,7 +32,7 @@ export const Entry: React.FC<EntryProps> = ({ concept, language }) => {
   );
 
   if (!entry) {
-    return null;
+    return <StyledContainer justify="center" align="center" ><Loading /></StyledContainer>;
   }
 
   const path = languageName
@@ -52,3 +54,8 @@ export const Entry: React.FC<EntryProps> = ({ concept, language }) => {
     </Container>
   );
 };
+
+const StyledContainer = styled(Container)`
+  width: 100%;
+  height: 100vh;
+`;
