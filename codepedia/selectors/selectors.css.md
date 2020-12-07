@@ -40,7 +40,7 @@ The class selector selects HTML elements with a specific class attribute.
 
 To select elements with a specific class, write a period (`.`) character, followed by the class name.
 
-In this example, all HTML elements with class="center" will be red and center-aligned: 
+In this example, all HTML elements with `class="center"` will be red and center-aligned: 
 
 ```css
 .center {

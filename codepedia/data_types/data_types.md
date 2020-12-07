@@ -1,4 +1,4 @@
-# Data Types Explained
+# What is a Data Type?
 
 In computer science and computer programming, a _data type_ or simply _type_ is an attribute of data which tells the compiler or interpreter how the programmer intends to use the data.
 
