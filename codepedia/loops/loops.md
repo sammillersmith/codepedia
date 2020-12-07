@@ -1,4 +1,4 @@
-# Loops
+# Loops Explained
 
 Let's consider a situation when you want to print `Hello, World!` five times.
 
@@ -18,7 +18,7 @@ int main() {
 
 When the above program is executed, it produces the following result:
 
-```
+```bash
 Hello, World!
 Hello, World!
 Hello, World!
@@ -47,7 +47,7 @@ int main() {
 
 When the above program is executed, it produces the following result:
 
-```
+```bash
 Hello, World!
 Hello, World!
 Hello, World!
@@ -56,6 +56,8 @@ Hello, World!
 ```
 
 The above program makes use of a `while` loop, which is being used to execute a set of programming statements enclosed within `{` and `}`. Here, the computer first checks whether the given condition, i.e., variable `a` is less than `5` or not and if it finds the condition is true, then the loop body is entered to execute the given statements.
+
+## Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wxds6MAtUQ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

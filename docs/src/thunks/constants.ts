@@ -1,1 +1,1 @@
-export const URL_STARTER = "./codepedia";
+export const URL_STARTER = "codepedia";

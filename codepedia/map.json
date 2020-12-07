@@ -1,6 +1,5 @@
 {
   "concepts": {
-    "Syntax": ["syntax"],
     "Comments": ["comments"],
     "Variables": ["variables"],
     "Data Types": ["data_types"],
@@ -8,9 +7,15 @@
     "Conditionals": ["conditionals"],
     "Loops": ["loops"],
     "Arrays": ["arrays"],
+    "Objects": ["objects"],
     "Functions": ["functions"],
     "Elements": ["elements"],
-    "Attributes": ["attributes"]
+    "Attributes": ["attributes"],
+    "Headings": ["headings"],
+    "Paragraphs": ["paragraphs"],
+    "Formatting": ["formatting"],
+    "Selectors": ["selectors"],
+    "Backgrounds": ["backgrounds"]
   },
   "languages": {
     "HTML": "html",

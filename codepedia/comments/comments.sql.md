@@ -36,7 +36,6 @@ The following example uses a multi-line comment to ignore many statements:
 ```sql
 /* SELECT * 
 FROM customers;
-
 SELECT * 
 FROM products; */
 

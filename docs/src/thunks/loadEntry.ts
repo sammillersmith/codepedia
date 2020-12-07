@@ -10,12 +10,20 @@ export const loadEntry = (concept: string, language?: string) => {
 
   return async (dispatch: Dispatch) => {
     try {
-      const resp = await fetch(url);
+      const resp = await fetch(`/winter-hackathon-2020/${url}`);
       const mdBody = await resp.text();
+
       if (resp.ok && mdBody) {
         dispatch({ type: ADD_ENTRY, concept, language, mdBody });
+      } else if (!resp.ok) {
+        const resp = await fetch(`/${url}`);
+        const mdBody = await resp.text();
+        if (resp.ok && mdBody) {
+          dispatch({ type: ADD_ENTRY, concept, language, mdBody });
+        } 
       }
-    } catch (e) {}
+
+    } catch (e) { }
   };
 };
 

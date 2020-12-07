@@ -7,7 +7,10 @@
   "main": "dist/index",
   "module": "dist/index",
   "types": "typings/index",
+  "homepage": "https://kipprice.github.io/winter-hackathon-2020/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack serve",
     "build": "webpack",
     "test": "npx jest -- -t .test.ts"
