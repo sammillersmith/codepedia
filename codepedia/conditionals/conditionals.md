@@ -10,4 +10,4 @@ Although dynamic dispatch is not usually classified as a conditional construct, 
 
 <iframe width="489" height="270" src="https://www.youtube.com/embed/bFSjLPB6OJU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-So… _if_ you’ve already learned these concepts in another language, go to the next lesson — _else_, prepare yourself and let’s get started!
+So… _if_ you’ve already learned these concepts in another language, move on — _else_, prepare yourself and let’s get started!

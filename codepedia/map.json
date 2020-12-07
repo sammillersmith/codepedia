@@ -10,7 +10,8 @@
     "Arrays": ["arrays"],
     "Functions": ["functions"],
     "Elements": ["elements"],
-    "Attributes": ["attributes"]
+    "Attributes": ["attributes"],
+    "Object Oriented Programming": ["object_oriented_programming"]
   },
   "languages": {
     "HTML": "html",
@@ -21,6 +22,7 @@
     "Java": "java",
     "SQL": "sql",
     "Rust": "rust",
-    "Emojicode": "emojic"
+    "Emojicode": "emojic",
+    "Ruby": "ruby"
   }
 }
