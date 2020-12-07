@@ -58,7 +58,11 @@ export const HubEntries: React.FC<HubEntriesProps> = ({
 
       <Text as="p" fontSize="md">
         👋 Welcome to Codepedia! Community-driven code documentations and
-        glossary for popular programming languages and frameworks.
+        glossary for popular programming languages and frameworks. If you're
+        interested in contributing, check out our&nbsp;
+        <a href="https://github.com/kipprice/winter-hackathon-2020/blob/main/contribute.md">
+          {`Contribution Guide.`}
+        </a>
       </Text>
 
       <EntryPreviews
