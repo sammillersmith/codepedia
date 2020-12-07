@@ -2,9 +2,9 @@
 
 An HTML element is a piece of content in an HTML document and uses the following syntax:
 
-* opening tag
-* content
-* closing tag
+* Opening tag
+* Content
+* Closing tag
 
 ```html
 <p>Hello World!</p>
