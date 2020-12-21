@@ -1,13 +1,13 @@
 {
-  "name": "winter-hackathon-2020",
+  "name": "codepedia",
   "version": "1.0.0",
-  "description": "hack hack hack",
-  "author": "Kip Price",
+  "description": "coding resources",
+  "author": "Codecademy",
   "license": "MIT",
   "main": "dist/index",
   "module": "dist/index",
   "types": "typings/index",
-  "homepage": "https://kipprice.github.io/winter-hackathon-2020/",
+  "homepage": "https://codecademy.github.io/codepedia/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

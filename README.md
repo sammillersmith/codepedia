@@ -2,7 +2,7 @@
 
 Describe coding concepts in a variety of ways
 
-Link: https://kipprice.github.io/winter-hackathon-2020/
+Link: https://codecademy.github.io/codepedia/
 
 ## Adding a new concept
 

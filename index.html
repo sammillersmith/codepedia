@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <title>Codepedia</title>
-    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/closed-book_1f4d5.png">
+    <link
+      rel="icon"
+      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/closed-book_1f4d5.png"
+    />
     <style>
       * {
         box-sizing: border-box;
@@ -30,23 +33,28 @@
       // When the single page app is loaded further down in this file,
       // the correct url will be waiting in the browser's history for
       // the single page app to route accordingly.
-      (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) { 
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + decoded + l.hash
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
           );
         }
-      }(window.location))
+      })(window.location);
     </script>
     <!-- End Single Page Apps for GitHub Pages -->
-
   </head>
   <body>
     <main id="root"></main>
     <script src="/docs/dist/index.js"></script>
-    <script src="/winter-hackathon-2020/docs/dist/index.js"></script>
+    <script src="/codepedia/docs/dist/index.js"></script>
   </body>
 </html>
