@@ -1,12 +1,12 @@
 # How to Contribute 👩‍💻🧑‍💻
 
-We are an open community of developers around the world building resources for a better Web. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.
+We are an open community of developers and learners around the world building resources for a better Web. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.
 
 Every part of Codepedia (docs, glossary, and the translations) are created by an open community of developers. Please, join us!
 
 ## Four Simple Steps to Codepedia
 
-Codepedia is an open-sourced online resource where anyone can add and edit contents. You don't need to be an expert programmer or know a lot about technologies. There are plenty of things that need to be done, from the simple (proofreading, correcting typos, translations) to the complex (writing API documentation).
+Codepedia is an online resource where anyone can add and edit its content. You don't need to be an expert programmer or know a lot about technologies. There are plenty of things that need to be done, from the simple (proofreading, correcting typos, translations) to the complex (writing API documentation).
 
 Contributing is easy and safe. Even if you make a mistake, it's easily fixable. Even if you don't know exactly how things should look, or your grammar isn't all that good, don't worry about it! We have a team of people whose job it is to make sure that Codepedia's contents are as good as possible. 
 
@@ -15,7 +15,6 @@ Someone will be along to make sure your work is tidy and well-written. Share wha
 ### Step 1: Create an account on GitHub
 
 To begin your contributions to Codepedia, you need to have an account on [GitHub](https://github.com/) and know how it works.
-
 
 ### Step 2: Pick an "Issue" to complete
 
