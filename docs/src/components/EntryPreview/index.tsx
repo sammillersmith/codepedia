@@ -1,6 +1,6 @@
 import { IEntry } from "../../models/entry";
 import React from "react";
-import { Box } from "@codecademy/gamut-labs";
+import { Card } from "@codecademy/gamut-labs";
 import { ButtonDeprecatedBase, Container, Heading } from "@codecademy/gamut";
 import styled from "@emotion/styled";
 import { toTitleCase } from "../../helpers/title";
@@ -9,7 +9,7 @@ import { selectConceptName } from "../../selectors";
 import { useSelector } from "react-redux";
 import { IStore } from "../../models";
 
-const StyledBox = styled(Box)`
+const StyledBox = styled(Card)`
   cursor: pointer;
   :after,
   :before {
@@ -31,7 +31,7 @@ const EntryPreview: React.FC<EntryPreviewProps> = ({ entry, onClick }) => {
 
   return (
     <ButtonDeprecatedBase onClick={onClick}>
-      <StyledBox padding={16} variant="white" shadowOffset={4} bordered>
+      <StyledBox padding={16} variant="white" shadowOffset={4}>
         <Container justify="center">
           <Heading as="h3" fontSize="xs">
             <span style={{ fontFamily: fontAccent }}>{toTitleCase(name)}</span>
