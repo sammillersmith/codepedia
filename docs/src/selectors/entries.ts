@@ -1,5 +1,4 @@
 import { IEntry } from "models/entry";
-import { languages } from "reducers";
 import { IStore } from "../models";
 
 export const selectEntries = (s: IStore) => {
