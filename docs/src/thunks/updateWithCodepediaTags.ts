@@ -38,10 +38,6 @@ export const updateWithCodepediaTags = (
         entry.language ? entry.language : ""
       }'>$1</Codepedia>`;
 
-      if (regex.exec(out.mdBody)) {
-        console.log(`${rootConcept}, ${rootLanguage} --> ${c}`);
-      }
-
       out.mdBody = out.mdBody.replace(regex, toReplace);
     }
 
