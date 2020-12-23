@@ -2,6 +2,7 @@ import { ADD_ENTRY } from "../actions/addEntry";
 import { IMap } from "../actions/mapLoaded";
 import { Dispatch } from "redux";
 import { URL_STARTER } from "./constants";
+import { updateWithCodepediaTags } from "./updateWithCodepediaTags";
 
 export const loadEntry = (concept: string, language?: string) => {
   const url = language
@@ -15,11 +16,13 @@ export const loadEntry = (concept: string, language?: string) => {
 
       if (resp.ok && mdBody) {
         dispatch({ type: ADD_ENTRY, concept, language, mdBody });
+        dispatch(updateWithCodepediaTags(mdBody, concept, language) as any);
       } else if (!resp.ok) {
         const resp = await fetch(`/${url}`);
         const mdBody = await resp.text();
         if (resp.ok && mdBody) {
           dispatch({ type: ADD_ENTRY, concept, language, mdBody });
+          dispatch(updateWithCodepediaTags(mdBody, concept, language) as any);
         }
       }
     } catch (e) {}

@@ -3,12 +3,17 @@ import ReactDOM from "react-dom";
 import { App } from "./App";
 import { store } from "./models";
 import { Provider } from "react-redux";
-import { Router } from "@reach/router";
+import { theme } from "@codecademy/gamut-styles";
+import { ThemeProvider } from "@emotion/react";
+
+import "@codecademy/gamut-styles/core/index.scss";
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <ThemeProvider theme={theme}>
+        <App />
+      </ThemeProvider>
     </Provider>
   </React.StrictMode>,
 

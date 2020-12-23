@@ -1,5 +1,5 @@
 import { NavSidebar, NavSection } from "../../../components";
-import React, { useCallback } from "react";
+import React from "react";
 import { TextButton } from "@codecademy/gamut";
 import { useNavigate } from "@reach/router";
 import { useSelector } from "react-redux";
@@ -9,7 +9,10 @@ import {
 } from "../../../selectors";
 import { IStore } from "../../../models";
 import { IEntry } from "models/entry";
-import { genUrl } from "../../../helpers/genUrl";
+import {
+  navigateToConceptAndLanguage,
+  navigateToRoot,
+} from "../../../helpers/navigate";
 
 export type EntrySidebarProps = {
   entry: IEntry;
@@ -30,26 +33,20 @@ const EntrySidebar: React.FC<EntrySidebarProps> = ({
   );
 
   const navigate = useNavigate();
-  const navTo = useCallback(
-    (language?: string, concept?: string) => {
-      if (!language && !concept) {
-        navigate(genUrl(""));
-        return;
-      }
-      navigate(genUrl(`entries/${concept}/${language || ""}`));
-    },
-    [entry]
-  );
 
   return (
     <NavSidebar>
-      <TextButton onClick={() => navTo()}>&lt; Back</TextButton>
+      <TextButton onClick={() => navigateToRoot(navigate)}>
+        &lt; Back
+      </TextButton>
 
       <NavSection
         title={`${conceptName} in Other Languages`}
         options={languages}
         selectedOption={entry.language}
-        onSelectOption={(l: string) => navTo(l, entry.concept)}
+        onSelectOption={(l: string) =>
+          navigateToConceptAndLanguage(navigate, entry.concept, l)
+        }
         defaultName="Multiple Languages"
       />
 
@@ -57,7 +54,9 @@ const EntrySidebar: React.FC<EntrySidebarProps> = ({
         title={`Other Concepts in ${languageName}`}
         options={concepts}
         selectedOption={entry.concept}
-        onSelectOption={(c: string[]) => navTo(entry.language, c[0])}
+        onSelectOption={(c: string[]) =>
+          navigateToConceptAndLanguage(navigate, c[0], entry.language)
+        }
       />
     </NavSidebar>
   );

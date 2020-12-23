@@ -1,22 +1,19 @@
 import { IEntry } from "../../models/entry";
 import React from "react";
-import { Box } from "@codecademy/gamut-labs";
-import { ButtonDeprecatedBase, Container, Heading } from "@codecademy/gamut";
+import { Card } from "@codecademy/gamut-labs";
+import { ButtonDeprecatedBase, Container } from "@codecademy/gamut";
 import styled from "@emotion/styled";
 import { toTitleCase } from "../../helpers/title";
 import { fontAccent } from "@codecademy/gamut-styles";
 import { selectConceptName } from "../../selectors";
 import { useSelector } from "react-redux";
 import { IStore } from "../../models";
+import { Heading } from "../Heading";
 
-const StyledBox = styled(Box)`
+const StyledBox = styled(Card)`
   cursor: pointer;
-  :after,
-  :before {
-    width: 100%;
-    height: 100%;
-  }
 `;
+
 export type EntryPreviewProps = {
   entry: IEntry;
   onClick: () => void;
@@ -31,10 +28,10 @@ const EntryPreview: React.FC<EntryPreviewProps> = ({ entry, onClick }) => {
 
   return (
     <ButtonDeprecatedBase onClick={onClick}>
-      <StyledBox padding={16} variant="white" shadowOffset={4} bordered>
-        <Container justify="center">
+      <StyledBox padding={16} variant="white" shadowOffset={4}>
+        <Container justify="center" align="center">
           <Heading as="h3" fontSize="xs">
-            <span style={{ fontFamily: fontAccent }}>{toTitleCase(name)}</span>
+            <span>{toTitleCase(name)}</span>
           </Heading>
         </Container>
       </StyledBox>

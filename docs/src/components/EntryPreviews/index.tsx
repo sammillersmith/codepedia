@@ -1,9 +1,11 @@
-import { Container, Heading } from "@codecademy/gamut";
+import { Container } from "@codecademy/gamut";
 import styled from "@emotion/styled";
 import EntryPreview from "../EntryPreview";
 import { IEntry } from "../../models/entry";
 import React from "react";
 import { toTitleCase } from "../../helpers/title";
+import { Heading } from "../Heading";
+import { fontAccent } from "@codecademy/gamut-styles";
 
 export type EntryPreviewsProps = {
   title: string;
@@ -22,9 +24,9 @@ export const EntryPreviews: React.FC<EntryPreviewsProps> = ({
   return (
     <>
       <StyledColumn column>
-        <Heading as="h2" fontSize="md">
+        <AccentText as="h2" fontSize="md">
           {toTitleCase(title)}
-        </Heading>
+        </AccentText>
 
         <StyledGrid>
           {entries.map((e) => (
@@ -48,4 +50,8 @@ const StyledGrid = styled.div`
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
   margin: 2rem 0;
+`;
+
+const AccentText = styled(Heading)`
+  font-family: ${fontAccent};
 `;

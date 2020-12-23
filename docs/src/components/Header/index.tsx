@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading } from "@codecademy/gamut";
+import { Heading } from "../Heading";
 import { colors } from "@codecademy/gamut-styles";
 import styled from "@emotion/styled";
 

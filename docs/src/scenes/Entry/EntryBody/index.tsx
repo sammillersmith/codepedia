@@ -3,6 +3,7 @@ import React from "react";
 import { Container, Markdown } from "@codecademy/gamut";
 import styled from "@emotion/styled";
 import { CodeBlock } from "../CodeBlock";
+import { CrossCodepedia } from "../../../components/CrossCodepedia";
 
 export const StyledCard = styled.div`
   margin: 2rem;
@@ -17,6 +18,10 @@ export const EntryBody: React.FC<EntryCardProps> = ({ entry }) => {
     code: {
       component: CodeBlock,
       allowedAttributes: ["className", "class"],
+    },
+    Codepedia: {
+      component: CrossCodepedia,
+      allowedAttributes: ["concept", "language"],
     },
   };
   return (

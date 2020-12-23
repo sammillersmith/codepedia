@@ -12,7 +12,7 @@ import { IStore } from "../../../models";
 import { isValidForFilter } from "../../../helpers/filter";
 import { useNavigate } from "@reach/router";
 import { IEntry } from "../../../models/entry";
-import { genUrl } from "../../../helpers/genUrl";
+import { navigateToEntry } from "../../../helpers/navigate";
 
 export type HubEntriesProps = {
   concept: string;
@@ -40,7 +40,7 @@ export const HubEntries: React.FC<HubEntriesProps> = ({
   // ==> Handle navigation
   const navigate = useNavigate();
   const onEntrySelect = useCallback((entry: IEntry) => {
-    navigate(genUrl(`entries/${entry.concept}/${entry.language || ""}`));
+    navigateToEntry(navigate, entry);
   }, []);
 
   return (
@@ -54,7 +54,7 @@ export const HubEntries: React.FC<HubEntriesProps> = ({
         onChange={(e) => setFilterTxt(e.target.value)}
       />
 
-      <Spacing size={2} />
+      <Spacing size={1} />
 
       <Text as="p" fontSize="md">
         👋 Welcome to Codepedia! Community-driven code documentations and
@@ -64,6 +64,8 @@ export const HubEntries: React.FC<HubEntriesProps> = ({
           {`Contribution Guide.`}
         </a>
       </Text>
+
+      <Spacing size={2} />
 
       <EntryPreviews
         title="Language-Agnostic Concepts"
