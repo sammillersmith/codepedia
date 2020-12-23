@@ -2,7 +2,7 @@
 
 Describe coding concepts in a variety of ways
 
-Link: https://codecademy.github.io/codepedia/
+📕 https://codecademy.github.io/codepedia
 
 ## Adding a new concept
 
