@@ -1,4 +1,4 @@
-# Data TYpes in Java
+# Data Types in Java
 
 ## Primitive Data Types
 

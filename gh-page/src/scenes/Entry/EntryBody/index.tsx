@@ -23,6 +23,15 @@ export const EntryBody: React.FC<EntryCardProps> = ({ entry }) => {
       component: CrossCodepedia,
       allowedAttributes: ["concept", "language"],
     },
+    h1: {
+      component: StyledH1
+    },
+    h2: {
+      component: StyledH2
+    },
+    h3: {
+      component: StyledH3
+    }
   };
   return (
     <Container column>
@@ -32,3 +41,7 @@ export const EntryBody: React.FC<EntryCardProps> = ({ entry }) => {
     </Container>
   );
 };
+
+const StyledH1 = styled.h1`font-size: 2.5rem;`
+const StyledH2 = styled.h2`font-size: 2.0rem;`
+const StyledH3 = styled.h3`font-size: 1.2rem;`
