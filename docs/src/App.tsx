@@ -1,5 +1,5 @@
-import React, { useCallback, useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
 import { loadMap } from "./thunks/loadMap";
 import { RouteComponentProps, Router } from "@reach/router";
 import { fontBase } from "@codecademy/gamut-styles";

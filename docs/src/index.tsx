@@ -6,6 +6,8 @@ import { Provider } from "react-redux";
 import { theme } from "@codecademy/gamut-styles";
 import { ThemeProvider } from "@emotion/react";
 
+import "@codecademy/gamut-styles/core/index.scss";
+
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>

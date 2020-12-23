@@ -1018,10 +1018,10 @@
     react-truncate-markup "^5.0.1"
     react-use "^15.3.4"
 
-"@codecademy/markdown-overrides@0.4.3-alpha.194508.0":
-  version "0.4.3-alpha.194508.0"
-  resolved "https://registry.yarnpkg.com/@codecademy/markdown-overrides/-/markdown-overrides-0.4.3-alpha.194508.0.tgz#64ef00be643a4805f3f7b792f5eaa40588d26327"
-  integrity sha512-5/0jpO95LOvnYtnX/+Nnv5DbnVT0zY7HV4Cj/ZzEvhaHq+MPjJtlnlaDGGbz2L4qWa5aK84hqWLP+EK6r83ZHg==
+"@codecademy/markdown-overrides@0.4.3-alpha.f56f18.0":
+  version "0.4.3-alpha.f56f18.0"
+  resolved "https://registry.yarnpkg.com/@codecademy/markdown-overrides/-/markdown-overrides-0.4.3-alpha.f56f18.0.tgz#e371c5fb845367653854039471aef4033edce54f"
+  integrity sha512-uGVKY9UfAI05625ntq+LEk26DKST3OQr49nLYVySdhpX6Bn4mxRSTeWoeo5YkhBlj4amdyRu+NFIPW4aflb8Aw==
   dependencies:
     "@codecademy/gamut" "^19.7.3"
     "@codecademy/gamut-labs" "^7.6.2"
