@@ -1,4 +1,5 @@
 {
+  "license": "MIT",
   "dependencies": {
     "husky": "^4.3.6"
   },
