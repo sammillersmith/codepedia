@@ -1,5 +1,16 @@
+/**
+ * Transfer Entries (TEMPORARY)
+ * ----------------------------------------------------------------------------
+ * This script is in place to move any entries that were created using the old
+ * file structure (e.g. concept > concept.language.md) into the new file 
+ * structure (language > concept.md). This assumes that the files generated in 
+ * the old style are first placed in a folder called `byConcept`
+ * 
+ * Once all existing branches are updated to the new structure, this script and 
+ * the `byConcept` folder will be deprecated. All new entries should be placed
+ * directly into `codepedia/entries` via the `addEntry.js` script
+ */
 const fs = require('fs');
-const { Builder } = require('xml2js');
 const { loadMap, getFileDir, getFileUrl, getMetaDir, getMetaUrl } = require('./shared');
 
 const SRC_PATH = "./codepedia/byConcept"

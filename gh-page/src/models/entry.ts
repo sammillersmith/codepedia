@@ -1,5 +1,5 @@
 export interface IEntry {
-  language: string;
+  language?: string;
   concept: string;
   mdBody: string;
   title?: string;

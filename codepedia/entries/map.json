@@ -259,9 +259,8 @@
     "keywords": [
       "py",
       "python",
-      "Python",
       "functions",
-      "Functions"
+      "methods"
     ],
     "path": "codepedia/entries/python/functions.md"
   },
@@ -336,18 +335,6 @@
     "path": "codepedia/entries/css/selectors.md"
   },
   {
-    "title": "Example",
-    "description": "This is an example",
-    "keywords": [
-      "example",
-      "ex",
-      "eg"
-    ],
-    "language": "Example",
-    "concept": "Example",
-    "path": "codepedia/entries/Example/Example.md"
-  },
-  {
     "title": "Conditionals",
     "description": "",
     "language": "Rust",
@@ -402,20 +389,6 @@
       "Data Types"
     ],
     "path": "codepedia/entries/rust/data_types.md"
-  },
-  {
-    "title": "Conditionals",
-    "description": "",
-    "language": "Java",
-    "concept": "Conditionals",
-    "keywords": [
-      "java",
-      "java",
-      "Java",
-      "conditionals",
-      "Conditionals"
-    ],
-    "path": "codepedia/entries/java/conditionals.md"
   },
   {
     "title": "Loops",
@@ -920,5 +893,75 @@
       "Variables"
     ],
     "path": "codepedia/entries/javascript/variables.md"
+  },
+  {
+    "title": "Comments",
+    "description": "",
+    "language": "Ruby",
+    "concept": "Comments",
+    "keywords": [
+      "rb",
+      "ruby",
+      "Ruby",
+      "comments",
+      "Comments"
+    ],
+    "path": "codepedia/entries/ruby/comments.md"
+  },
+  {
+    "title": "Arrays",
+    "description": "",
+    "language": "Ruby",
+    "concept": "Arrays",
+    "keywords": [
+      "rb",
+      "ruby",
+      "Ruby",
+      "arrays",
+      "Arrays"
+    ],
+    "path": "codepedia/entries/ruby/arrays.md"
+  },
+  {
+    "title": "Conditionals",
+    "description": "",
+    "language": "SQL",
+    "concept": "Conditionals",
+    "keywords": [
+      "sql",
+      "sql",
+      "SQL",
+      "conditionals",
+      "Conditionals"
+    ],
+    "path": "codepedia/entries/sql/conditionals.md"
+  },
+  {
+    "title": "Comments",
+    "description": "",
+    "language": "SQL",
+    "concept": "Comments",
+    "keywords": [
+      "sql",
+      "sql",
+      "SQL",
+      "comments",
+      "Comments"
+    ],
+    "path": "codepedia/entries/sql/comments.md"
+  },
+  {
+    "title": "Functions",
+    "description": "",
+    "language": "SQL",
+    "concept": "Functions",
+    "keywords": [
+      "sql",
+      "sql",
+      "SQL",
+      "functions",
+      "Functions"
+    ],
+    "path": "codepedia/entries/sql/functions.md"
   }
 ]

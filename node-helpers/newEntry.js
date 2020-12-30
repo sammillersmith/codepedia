@@ -1,3 +1,14 @@
+/**
+ * New Entry   
+ * ----------------------------------------------------------------------------
+ * This is a helper script for generating a new entry in the codepedia. It 
+ * automatically starts the markdown file, collects the meta details about the 
+ * file, and regenerates the `map.json` file via `buildMap.js`.
+ * 
+ * Entries can also be added by hand, but they will need to include the markdown
+ * file itself, a corresponding entry in the `_meta` folder, and to have the 
+ * `map.json` file regenerated
+ */
 const fs = require('fs');
 const { getFileDir, getMetaDir, getFileUrl, getMetaUrl } = require('./shared');
 

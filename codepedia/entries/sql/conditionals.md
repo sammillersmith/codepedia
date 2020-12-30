@@ -1,4 +1,4 @@
-# Conditonals in SQL
+# Conditionals in SQL
 
 ## CASE Statement
 

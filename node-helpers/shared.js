@@ -1,3 +1,7 @@
+/**
+ * collection of helper functions that multiple files end up needing
+ */
+
 const fs = require('fs')
 
 const SRC_PATH = "./codepedia/byConcept"

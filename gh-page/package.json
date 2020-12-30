@@ -14,7 +14,8 @@
     "start": "webpack serve",
     "build": "webpack",
     "test": "npx jest -- -t .test.ts",
-    "precommit": "yarn test && yarn build && git add dist"
+    "precommit":"f=`git diff --name-only --cached .`; if [[ ! -z \"$f\" ]]; then yarn test && yarn build && git add dist; fi",
+    "hasNoCodeChanges": "f=`git diff --name-only --cached .`; if [[ ! -z \"$f\" ]]; then echo 0; else echo 1; fi"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

@@ -24,6 +24,10 @@ Now that you are logged in, read the descriptions of the different task types av
 
 Once you've decided what kind of task you want to do, find a specific page, code example, etc. to work on, and just do it!
 
+> If you're adding a new entry, there's a special script that will get everything set up for you. 
+> Run `yarn new-entry` at your command line to go through a series of prompts about the entry 
+> you're adding.
+
 ### Step 4: Ask for help
 
 If you are not sure what to do at any point, then you are more than welcome to ask for help. There are a few different help options:

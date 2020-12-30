@@ -1,7 +1,6 @@
 {
   "dependencies": {
-    "husky": "^4.3.6",
-    "xml2js": "^0.4.23"
+    "husky": "^4.3.6"
   },
   "scripts": {
     "install-all": "yarn && cd gh-page && yarn && cd ..",
@@ -11,7 +10,7 @@
     "start": "yarn build:map && cd gh-page && yarn start",
     "precommit": "yarn precommit:map && yarn precommit:gh-page",
     "precommit:gh-page": "cd gh-page && yarn precommit && cd ..",
-    "precommit:map": "yarn build:map"
+    "precommit:map": "yarn build:map && git add ./codepedia/entries/map.json"
   },
   "husky": {
     "pre-commit": "yarn precommit"

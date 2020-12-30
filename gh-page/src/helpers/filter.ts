@@ -31,6 +31,27 @@ export const isValidForFilter = (
     return true;
   }
 
+  // ==> Keywords
+  if (entry.keywords) {
+    for (let k of entry.keywords) {
+      if (!k) { continue; }
+      if (isContained(k, filterTxt)) { 
+        console.log(k, filterTxt)
+        return true; 
+      }
+    }
+  }
+  
+  // // ==> Title
+  if (entry.title) {
+    if (isContained(entry.title, filterTxt)) { return true; }
+  }
+
+  // // ==> Description
+  if (entry.description) {
+    if (isContained(entry.description, filterTxt)) { return true; }
+  }
+
   // ==> Body text (OPTIONAL)
   //   if (isContained(entry.mdBody, filterTxt)) {
   //     return true;
