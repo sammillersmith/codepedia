@@ -1,3 +1,9 @@
+const ROOT = '/codepedia';
+
 export const genUrl = (subPath: string) => {
-  return `/codepedia/${subPath}`;
+  return `${ROOT}/${subPath}`;
 };
+
+export const getMapUrl = () => {
+  return `${ROOT}/codepedia/entries/map.json`;
+}

@@ -7,7 +7,14 @@ export const languages: Reducer<Record<string, string>> = (
 ) => {
   switch (action.type) {
     case MAP_LOADED:
-      state = { ...state, ...(action as MapLoadedAction).map.languages };
+      const nextState = { ...state }
+      const map = (action as MapLoadedAction).map;
+
+      for (let m of map) {
+        if (!m.language) { continue }
+        nextState[m.language] = m.language
+      }
+      return nextState
   }
   return state;
 };

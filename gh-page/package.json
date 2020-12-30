@@ -16,9 +16,6 @@
     "test": "npx jest -- -t .test.ts",
     "precommit": "yarn test && yarn build && git add dist"
   },
-  "husky": {
-    "pre-commit": "yarn precommit"
-  },
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/plugin-proposal-class-properties": "^7.12.1",

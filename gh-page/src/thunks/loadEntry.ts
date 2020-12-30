@@ -1,8 +1,9 @@
 import { ADD_ENTRY } from "../actions/addEntry";
-import { IMap } from "../actions/mapLoaded";
+import { IFile, IMap } from "../actions/mapLoaded";
 import { Dispatch } from "redux";
 import { URL_STARTER } from "./constants";
 import { updateWithCodepediaTags } from "./updateWithCodepediaTags";
+import { genUrl } from '../helpers/genUrl';
 
 export const loadEntry = (concept: string, language?: string) => {
   const url = language
@@ -29,17 +30,28 @@ export const loadEntry = (concept: string, language?: string) => {
   };
 };
 
+const loadEntryFromMap = (f: IFile) => {
+  return async (dispatch: Dispatch) => {
+
+    try {
+    const resp = await fetch(genUrl(f.path));
+    const mdBody = await resp.text();
+
+    if (resp.ok && mdBody) {
+      dispatch({ type: ADD_ENTRY, ...f, mdBody });
+      dispatch(updateWithCodepediaTags(mdBody, f.concept, f.language) as any);
+    }
+  } catch (e) {
+
+  }
+  }
+}
+
 export const loadAllEntries = (map: IMap) => {
   return async (dispatch: Dispatch) => {
-    for (let keyword of Object.keys(map.concepts)) {
-      for (let concept of map.concepts[keyword]) {
-        dispatch(loadEntry(concept) as any);
-
-        for (let languageName of Object.keys(map.languages)) {
-          const language = map.languages[languageName];
-          dispatch(loadEntry(concept, language) as any);
-        }
-      }
+    for (let f of map) {
+      console.log('loading', f.path)
+      dispatch(loadEntryFromMap(f) as any);
     }
   };
 };

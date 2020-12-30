@@ -8,12 +8,15 @@ export const concepts: Reducer<Record<string, string[]>> = (
   switch (action.type) {
     case MAP_LOADED:
       const nextState = { ...state };
-      const concepts = (action as MapLoadedAction).map.concepts;
-      for (let k of Object.keys(concepts)) {
+
+      const map = (action as MapLoadedAction).map;
+
+      for (let m of map) {
+        const k = m.concept;
         if (nextState[k]) {
-          nextState[k] = nextState[k].concat(concepts[k]);
+          nextState[k] = nextState[k].concat(k);
         } else {
-          nextState[k] = [...concepts[k]];
+          nextState[k] = [k];
         }
       }
       return nextState;

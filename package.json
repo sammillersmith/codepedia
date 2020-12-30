@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "husky": "^4.3.6",
+    "xml2js": "^0.4.23"
+  },
+  "scripts": {
+    "install-all": "yarn && cd gh-page && yarn && cd ..",
+    "build": "cd gh-page && yarn build && cd ..",
+    "build:map": "node ./node-helpers/buildMap.js",
+    "new-entry": "node ./node-helpers/newEntry.js && node ./node-helpers/buildMap.js",
+    "start": "yarn build:map && cd gh-page && yarn start",
+    "precommit": "yarn precommit:map && yarn precommit:gh-page",
+    "precommit:gh-page": "cd gh-page && yarn precommit && cd ..",
+    "precommit:map": "yarn build:map"
+  },
+  "husky": {
+    "pre-commit": "yarn precommit"
+  }
+}

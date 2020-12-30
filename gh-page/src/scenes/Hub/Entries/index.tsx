@@ -56,7 +56,7 @@ export const HubEntries: React.FC<HubEntriesProps> = ({
 
       <Spacing size={1} />
 
-      <Text as="p" fontSize="md">
+      <Text as="p" fontSize="md" style={{ lineHeight: 1.2 }}>
         👋 Welcome to Codepedia! Community-driven code documentations and
         glossary for popular programming languages and frameworks. If you're
         interested in contributing, check out our&nbsp;

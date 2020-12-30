@@ -1,0 +1,15 @@
+# What is a Data Type?
+
+In computer science and computer programming, a _data type_ or simply _type_ is an attribute of data which tells the compiler or interpreter how the programmer intends to use the data.
+
+Almost all programming languages explicitly include the notion of data type, though different languages may use different terminology.
+
+Common supported basic data types include:
+
+- Integer number
+- Floating-point number
+- Character
+- String
+- Boolean
+
+A data type constrains the values that an expression, such as a variable or a function, might take. This data type defines the operations that can be done on the data, the meaning of the data, and the way values of that type can be stored. A data type provides a set of values from which an expression (i.e. variable, function, etc.) may take its values.
