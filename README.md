@@ -1,3 +1,10 @@
+<div align="center">
+  <br>
+  <h1>Codepedia 📕</h1>
+  <strong>For Empowering Community</strong>
+</div>
+<br>
+
 # Codepedia
 
 Describe coding concepts in a variety of ways
