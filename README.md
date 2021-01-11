@@ -1,9 +1,14 @@
 <div align="center">
   <br>
   <h1>Codepedia 📕</h1>
-  <strong>Describe coding concepts in a variety of ways</strong>
+  <strong>Describe coding concepts in a variety of ways.</strong>
 </div>
 <br>
+
+Built by the Comm
+Welcome to the Codepedia codebase. We are so excited to have you. With your help, we can build out Copedia’s usability, scalability, and stability to better serve our communities.
+
+Built by the community. Maintained by Codecademy.
 
 📕 https://codecademy.github.io/codepedia
 
