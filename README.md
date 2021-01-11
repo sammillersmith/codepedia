@@ -1,5 +1,4 @@
 <div align="center">
-  <br>
   <h1>Codepedia 📕</h1>
   <strong>Describe coding concepts in a variety of ways.</strong>
 </div>
