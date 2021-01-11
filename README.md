@@ -1,13 +1,9 @@
 <div align="center">
   <br>
   <h1>Codepedia 📕</h1>
-  <strong>For Empowering Community</strong>
+  <strong>Describe coding concepts in a variety of ways</strong>
 </div>
 <br>
-
-# Codepedia
-
-Describe coding concepts in a variety of ways
 
 📕 https://codecademy.github.io/codepedia
 
