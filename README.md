@@ -5,8 +5,7 @@
 </div>
 <br>
 
-Built by the Comm
-Welcome to the Codepedia codebase. We are so excited to have you. With your help, we can build out Copedia’s usability, scalability, and stability to better serve our communities.
+Welcome to the [Codepedia](https://codecademy.github.io/codepedia) codebase. We are so excited to have you. With your help, we can build out Codepedia’s content to better serve our learners.
 
 Built by the community. Maintained by Codecademy.
 
