@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Codepedia 📕</h1>
-  <strong>Documentation and glossary for popular programming languages and terms.</strong><br>
+  <strong>Documentation and glossary for popular programming languages.</strong><br>
   <strong>Built by the community. Maintained by Codecademy.</strong>
 </div>
 <br>
