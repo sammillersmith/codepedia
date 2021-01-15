@@ -1,6 +1,7 @@
 <div align="center">
   <h1>Codepedia 📕</h1>
   <strong>Describe coding concepts in a variety of ways.</strong>
+  <strong>Built by the community. Maintained by Codecademy.</strong>
 </div>
 <br>
 
