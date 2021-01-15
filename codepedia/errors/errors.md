@@ -18,6 +18,6 @@ Every language has rules regarding the structure of words and phrases in a sente
 
 Similarly to the English language, programming languages expect keywords, symbols, and values to be arranged in a certain, logical order according to syntax, otherwise the compiler will throw a syntax error.
 
-# Logical Errors
+# Logic Errors
 
 Nearly every piece of code you write is an expression of some meaningful logic. This logic is the core of what you are intending to accomplish with your code. Sometimes you might write code in such a way that is syntactically correct but isn’t what you intended to express. This can be seen in any language, including English.
