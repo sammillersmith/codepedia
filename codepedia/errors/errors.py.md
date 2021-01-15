@@ -7,9 +7,8 @@ There are (at least) two distinguishable kinds of errors in Python: syntax error
 Syntax errors, also known as parsing errors, are perhaps the most common kind of complaint you get while you are still learning Python:
 
 ```error
-while True print('Hello world')
-  File "<stdin>", line 1
-    while True print('Hello world')
+File "script.py", line 1
+  while True print("Hello world!")
                    ^
 SyntaxError: invalid syntax
 ```
@@ -29,10 +28,8 @@ Even if a statement or expression is syntactically correct, it may cause an erro
 `ValueError` is thrown when a function's argument is of an inappropriate type.
 
 ```error
-int('xyz')
-
 Traceback (most recent call last):
-File "<pyshell#14>", line 1, in <module>
+File "script.py", line 1, in <module>
 int('xyz')
 ValueError: invalid literal for int() with base 10: 'xyz'
 ```
@@ -42,10 +39,8 @@ ValueError: invalid literal for int() with base 10: 'xyz'
 `NameError` is thrown when an object could not be found.
 
 ```error
-age
-
 Traceback (most recent call last):
-File "<pyshell#6>", line 1, in <module>
+File "script.py", line 1, in <module>
 age
 NameError: name 'age' is not defined
 ```
@@ -55,13 +50,21 @@ NameError: name 'age' is not defined
 `IndexError` is thrown when trying to access an item at an invalid index.
 
 ```error
-L1 = [1, 2, 3]
-L1[3]
-
 Traceback (most recent call last):
-File "<pyshell#18>", line 1, in <module>
-L1[3]
+File "script.py", line 1, in <module>
+employees[3]
 IndexError: list index out of range
+```
+
+### Module Not Found Error
+
+`ModuleNotFoundError` is thrown when a module could not be found.
+
+```error
+Traceback (most recent call last):
+File "script.py", line 1, in <module>
+import notamodule
+ModuleNotFoundError: No module named 'notamodule'
 ```
 
 ### Zero Division Error 
@@ -69,11 +72,9 @@ IndexError: list index out of range
 `ZeroDivisionError` is thrown when the second operator in the division is zero.
 
 ```error
-x = 100 / 0
-
 Traceback (most recent call last):
-File "<pyshell#8>", line 1, in <module>
-x=100/0
+File "script.py", line 1, in <module>
+ratio = 100 / 0
 ZeroDivisionError: division by zero
 ```
 
