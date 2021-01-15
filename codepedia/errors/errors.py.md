@@ -22,7 +22,62 @@ File name and line number are printed so you know where to look in case the inpu
 
 ## Exceptions
 
-Even if a statement or expression is syntactically correct, it may cause an error when an attempt is made to execute it. Errors detected during execution are called exceptions and are not unconditionally fatal. Most exceptions are not handled by programs, however, and result in error messages as shown here.
+Even if a statement or expression is syntactically correct, it may cause an error when an attempt is made to execute it. Errors detected during execution are called exceptions and are not unconditionally fatal. Most exceptions are not handled by programs, however, and result in error messages as shown here:
+
+### Value Error
+
+`ValueError` is thrown when a function's argument is of an inappropriate type.
+
+```error
+int('xyz')
+
+Traceback (most recent call last):
+File "<pyshell#14>", line 1, in <module>
+int('xyz')
+ValueError: invalid literal for int() with base 10: 'xyz'
+```
+
+### Name Error
+
+`NameError` is thrown when an object could not be found.
+
+```error
+age
+
+Traceback (most recent call last):
+File "<pyshell#6>", line 1, in <module>
+age
+NameError: name 'age' is not defined
+```
+
+### Index Error
+
+`IndexError` is thrown when trying to access an item at an invalid index.
+
+```error
+L1 = [1, 2, 3]
+L1[3]
+
+Traceback (most recent call last):
+File "<pyshell#18>", line 1, in <module>
+L1[3]
+IndexError: list index out of range
+```
+
+### Zero Division Error 
+
+`ZeroDivisionError` is thrown when the second operator in the division is zero.
+
+```error
+x = 100 / 0
+
+Traceback (most recent call last):
+File "<pyshell#8>", line 1, in <module>
+x=100/0
+ZeroDivisionError: division by zero
+```
+
+### Full Table
 
 The following table lists important built-in exceptions in Python.
 
