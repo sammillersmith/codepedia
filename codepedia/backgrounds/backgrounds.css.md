@@ -1,5 +1,7 @@
 # CSS Backgrounds
 
+<meta name="keywords" content="HTML, CSS, JavaScript">
+
 The CSS background properties are used to define the background effects for elements:
 
 - `background-color`

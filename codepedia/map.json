@@ -17,7 +17,8 @@
     "Paragraphs": ["paragraphs"],
     "Formatting": ["formatting"],
     "Selectors": ["selectors"],
-    "Backgrounds": ["backgrounds"]
+    "Backgrounds": ["backgrounds"],
+    "Errors": ["errors"]
   },
   "languages": {
     "HTML": "html",
