@@ -11,10 +11,10 @@ Welcome to the [Codepedia](https://codecademy.github.io/codepedia) codebase. We 
 
 ## Adding a new concept
 
-1. Create a folder for the concept in `codepedia`.
-1. Update `map.json` to include the phrase that should lead to that concept.
-1. Create a file in said folder with the format `[folder_name].md`.
-1. For language specific files, name them as `[folder_name].[language_file_suffix].md`.
+1. Create a folder for the concept in `codepedia` (i.e. loops).
+2. Update `map.json` to include the phrase that should lead to that concept. (i.e. `"Loops": ["loops"]`)
+3. Create a file in said folder with the format `[folder_name].md`. (i.e. loops/loops.md)
+4. For language specific files, name them as `[folder_name].[language_file_suffix].md` (i.e. loops/loops.py.md)
 
 ## Running locally
 
