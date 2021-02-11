@@ -18,7 +18,8 @@
     "Formatting": ["formatting"],
     "Selectors": ["selectors"],
     "Backgrounds": ["backgrounds"],
-    "Errors": ["errors"]
+    "Errors": ["errors"],
+    "Dictionary": ["dictionary"]
   },
   "languages": {
     "HTML": "html",
