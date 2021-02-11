@@ -13,12 +13,12 @@ Welcome to the [Codepedia](https://codecademy.github.io/codepedia) codebase. We 
 
 1. Create a folder for the concept in **codepedia** (i.e. **loops**).
 2. Update **map.json** to include the phrase that should lead to that concept. (i.e. `"Loops": ["loops"]`)
-3. Create a file in said folder with the format **[folder_name].md**. (i.e. loops/loops.md)
-4. For language specific files, name them as `[folder_name].[language_file_suffix].md` (i.e. loops/loops.py.md)
+3. Create a file in said folder with the format **[folder_name].md**. (i.e. **loops.md**)
+4. For language specific files, name them as **[folder_name].[language_file_suffix].md** (i.e. **loops.py.md**)
 
 ## Running locally
 
-1. `cd` to the `gh-page` folder
+1. `cd` to the **gh-page** folder
 1. Run `yarn && yarn start`
 1. Navigate to `localhost:5050` to see the local version of Codepedia
 
