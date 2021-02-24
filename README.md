@@ -7,8 +7,6 @@
 
 Welcome to the [Codepedia](https://codecademy.github.io/codepedia) codebase. We are so excited to have you. With your help, we can build out Codepedia’s content to better serve our learners. If you're interested in contributing, check out our [Contribution Guide](https://github.com/codecademy/codepedia/blob/main/contribute.md).
 
-📕 https://codecademy.github.io/codepedia
-
 ## Running locally
 
 1. Run `yarn install-all` to download all of the app's dependencies
