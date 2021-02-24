@@ -1,4 +1,4 @@
-# Condtionals in Rust
+# Conditionals in Rust
 
 ## If/Else
 
