@@ -22,14 +22,6 @@
     "language": "C++"
   },
   {
-    "path": "./codepedia/entries/c++/.md",
-    "keywords": [],
-    "title": "",
-    "description": "",
-    "concept": "",
-    "language": "C++"
-  },
-  {
     "title": "Loops",
     "description": "",
     "language": "C++",
@@ -615,14 +607,6 @@
       "syntax"
     ],
     "path": "codepedia/entries/_/syntax.md"
-  },
-  {
-    "path": "./codepedia/entries/_/.md",
-    "keywords": [],
-    "title": "",
-    "description": "",
-    "concept": "",
-    "language": "_"
   },
   {
     "title": "Loops",
