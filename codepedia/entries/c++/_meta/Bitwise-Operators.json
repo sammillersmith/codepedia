@@ -1,12 +1,12 @@
 {
-  "title": "Bitwise Operators in C++",
-  "description": "test test",
+  "title": "Bitwise Operators",
+  "description": "",
   "keywords": [
-    "C++",
-    " bitwise",
-    " operators"
+    "cpp",
+    "bitwise",
+    "operators"
   ],
   "language": "C++",
-  "concept": "Bitwise-Operators",
-  "path": "codepedia/entries/C++/Bitwise-Operators.md"
+  "concept": "bitwise-operators",
+  "path": "codepedia/entries/c++/bitwise_operators.md"
 }

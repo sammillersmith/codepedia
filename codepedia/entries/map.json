@@ -14,6 +14,22 @@
     "path": "codepedia/entries/c++/conditionals.md"
   },
   {
+    "path": "./codepedia/entries/c++/bitwise_operators.md",
+    "keywords": [],
+    "title": "Bitwise_operators",
+    "description": "",
+    "concept": "Bitwise_operators",
+    "language": "C++"
+  },
+  {
+    "path": "./codepedia/entries/c++/.md",
+    "keywords": [],
+    "title": "",
+    "description": "",
+    "concept": "",
+    "language": "C++"
+  },
+  {
     "title": "Loops",
     "description": "",
     "language": "C++",
@@ -96,18 +112,6 @@
       "Functions"
     ],
     "path": "codepedia/entries/c++/functions.md"
-  },
-  {
-    "title": "Bitwise Operators in C++",
-    "description": "test test",
-    "keywords": [
-      "C++",
-      " bitwise",
-      " operators"
-    ],
-    "language": "C++",
-    "concept": "Bitwise-Operators",
-    "path": "codepedia/entries/C++/Bitwise-Operators.md"
   },
   {
     "title": "Data Types",
