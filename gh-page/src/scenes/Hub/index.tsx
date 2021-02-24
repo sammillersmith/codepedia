@@ -12,7 +12,7 @@ export const Hub: React.FC<HubProps> = ({}) => {
   const [language, setLanguage] = useState("");
 
   return (
-    <Container flex column>
+    <Container flex column style={{height: '100%', width: '100%'}}>
       <Header path="Hub" />
 
       <Container flex row grow={1}>

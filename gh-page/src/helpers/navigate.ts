@@ -1,9 +1,9 @@
 import { IEntry } from "models/entry";
-import { navigate, NavigateFn } from "@reach/router";
+import { NavigateFn } from "@reach/router";
 import { genUrl } from "./genUrl";
 
 export const navigateToEntry = (navigate: NavigateFn, entry: IEntry) => {
-  navigateToConceptAndLanguage(navigate, entry.concept, entry.language);
+  navigateToConceptAndLanguage(navigate, entry.concept, entry.language || "");
 };
 
 export const navigateToConceptAndLanguage = (

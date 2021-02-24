@@ -13,6 +13,7 @@ import {
   navigateToConceptAndLanguage,
   navigateToRoot,
 } from "../../../helpers/navigate";
+import { toTitleCase } from '../../../helpers/title';
 
 export type EntrySidebarProps = {
   entry: IEntry;
@@ -29,7 +30,7 @@ const EntrySidebar: React.FC<EntrySidebarProps> = ({
     selectLanguagesForConcept(s, entry.concept)
   );
   const concepts = useSelector((s: IStore) =>
-    selectConceptsForLanguage(s, entry.language)
+    selectConceptsForLanguage(s, entry.language || "")
   );
 
   const navigate = useNavigate();
@@ -41,7 +42,7 @@ const EntrySidebar: React.FC<EntrySidebarProps> = ({
       </TextButton>
 
       <NavSection
-        title={`${conceptName} in Other Languages`}
+        title={`${toTitleCase(conceptName)} in Other Languages`}
         options={languages}
         selectedOption={entry.language}
         onSelectOption={(l: string) =>
@@ -55,7 +56,7 @@ const EntrySidebar: React.FC<EntrySidebarProps> = ({
         options={concepts}
         selectedOption={entry.concept}
         onSelectOption={(c: string[]) =>
-          navigateToConceptAndLanguage(navigate, c[0], entry.language)
+          navigateToConceptAndLanguage(navigate, c[0], entry.language || "")
         }
       />
     </NavSidebar>

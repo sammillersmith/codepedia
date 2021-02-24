@@ -1,22 +1,25 @@
 import { Container } from "@codecademy/gamut";
 import styled from "@emotion/styled";
-import EntryPreview from "../EntryPreview";
+import { EntryPreview, PreviewContext } from "../EntryPreview";
 import { IEntry } from "../../models/entry";
 import React from "react";
 import { toTitleCase } from "../../helpers/title";
 import { Heading } from "../Heading";
 import { fontAccent } from "@codecademy/gamut-styles";
 
+
 export type EntryPreviewsProps = {
   title: string;
   entries: IEntry[];
   onEntrySelect: (e: IEntry) => void;
+  context?: PreviewContext;
 };
 
 export const EntryPreviews: React.FC<EntryPreviewsProps> = ({
   title,
   entries,
   onEntrySelect,
+  context
 }) => {
   if (entries.length === 0) {
     return null;
@@ -34,6 +37,7 @@ export const EntryPreviews: React.FC<EntryPreviewsProps> = ({
               key={`epreview-${e.concept}-${e.language}`}
               entry={e}
               onClick={() => onEntrySelect(e)}
+              context={context}
             />
           ))}
         </StyledGrid>

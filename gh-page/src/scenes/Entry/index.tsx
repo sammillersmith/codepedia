@@ -32,7 +32,7 @@ export const Entry: React.FC<EntryProps> = ({ concept, language }) => {
   );
 
   if (!entry) {
-    return <StyledContainer justify="center" align="center" ><Loading /></StyledContainer>;
+    return <StyledContainer justify="center" align="center" style={{height: '100%', width: '100%'}}><Loading /></StyledContainer>;
   }
 
   const path = languageName
@@ -40,7 +40,7 @@ export const Entry: React.FC<EntryProps> = ({ concept, language }) => {
     : `${toTitleCase(conceptName)}`;
 
   return (
-    <Container column>
+    <Container column style={{height: '100%', width: '100%'}}>
       <Header path={path} />
 
       <Container flex row grow={1}>
