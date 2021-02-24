@@ -98,6 +98,18 @@
     "path": "codepedia/entries/c++/functions.md"
   },
   {
+    "title": "Bitwise Operators in C++",
+    "description": "test test",
+    "keywords": [
+      "C++",
+      " bitwise",
+      " operators"
+    ],
+    "language": "C++",
+    "concept": "Bitwise-Operators",
+    "path": "codepedia/entries/C++/Bitwise-Operators.md"
+  },
+  {
     "title": "Data Types",
     "description": "",
     "language": "C++",
@@ -599,6 +611,14 @@
       "syntax"
     ],
     "path": "codepedia/entries/_/syntax.md"
+  },
+  {
+    "path": "./codepedia/entries/_/.md",
+    "keywords": [],
+    "title": "",
+    "description": "",
+    "concept": "",
+    "language": "_"
   },
   {
     "title": "Loops",
