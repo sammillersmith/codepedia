@@ -3,7 +3,7 @@
     "title": "Conditionals",
     "description": "",
     "language": "C++",
-    "concept": "Conditionals",
+    "concept": "conditionals",
     "keywords": [
       "cpp",
       "c++",
@@ -14,18 +14,22 @@
     "path": "codepedia/entries/c++/conditionals.md"
   },
   {
-    "path": "./codepedia/entries/c++/bitwise_operators.md",
-    "keywords": [],
-    "title": "Bitwise_operators",
+    "title": "Bitwise Operators",
     "description": "",
-    "concept": "Bitwise_operators",
-    "language": "C++"
+    "keywords": [
+      "cpp",
+      "bitwise",
+      "operators"
+    ],
+    "language": "C++",
+    "concept": "bitwise-operators",
+    "path": "codepedia/entries/c++/bitwise_operators.md"
   },
   {
     "title": "Loops",
     "description": "",
     "language": "C++",
-    "concept": "Loops",
+    "concept": "loops",
     "keywords": [
       "cpp",
       "c++",
@@ -39,7 +43,7 @@
     "title": "Comments",
     "description": "",
     "language": "C++",
-    "concept": "Comments",
+    "concept": "comments",
     "keywords": [
       "cpp",
       "c++",
@@ -53,7 +57,7 @@
     "title": "Operators",
     "description": "",
     "language": "C++",
-    "concept": "Operators",
+    "concept": "operators",
     "keywords": [
       "cpp",
       "c++",
@@ -67,7 +71,7 @@
     "title": "Objects",
     "description": "",
     "language": "C++",
-    "concept": "Objects",
+    "concept": "objects",
     "keywords": [
       "cpp",
       "c++",
@@ -81,7 +85,7 @@
     "title": "Arrays",
     "description": "",
     "language": "C++",
-    "concept": "Arrays",
+    "concept": "arrays",
     "keywords": [
       "cpp",
       "c++",
@@ -95,7 +99,7 @@
     "title": "Functions",
     "description": "",
     "language": "C++",
-    "concept": "Functions",
+    "concept": "functions",
     "keywords": [
       "cpp",
       "c++",
@@ -109,7 +113,7 @@
     "title": "Data Types",
     "description": "",
     "language": "C++",
-    "concept": "Data Types",
+    "concept": "data_types",
     "keywords": [
       "cpp",
       "c++",
@@ -123,7 +127,7 @@
     "title": "Variables",
     "description": "",
     "language": "C++",
-    "concept": "Variables",
+    "concept": "variables",
     "keywords": [
       "cpp",
       "c++",
@@ -137,7 +141,7 @@
     "title": "Conditionals",
     "description": "",
     "language": "Emojicode",
-    "concept": "Conditionals",
+    "concept": "conditionals",
     "keywords": [
       "emojic",
       "emojicode",
@@ -151,7 +155,7 @@
     "title": "Loops",
     "description": "",
     "language": "Emojicode",
-    "concept": "Loops",
+    "concept": "loops",
     "keywords": [
       "emojic",
       "emojicode",
@@ -165,7 +169,7 @@
     "title": "Comments",
     "description": "",
     "language": "Emojicode",
-    "concept": "Comments",
+    "concept": "comments",
     "keywords": [
       "emojic",
       "emojicode",
@@ -179,7 +183,7 @@
     "title": "Operators",
     "description": "",
     "language": "Emojicode",
-    "concept": "Operators",
+    "concept": "operators",
     "keywords": [
       "emojic",
       "emojicode",
@@ -193,7 +197,7 @@
     "title": "Data Types",
     "description": "",
     "language": "Emojicode",
-    "concept": "Data Types",
+    "concept": "data_types",
     "keywords": [
       "emojic",
       "emojicode",
@@ -207,7 +211,7 @@
     "title": "Conditionals",
     "description": "",
     "language": "Python",
-    "concept": "Conditionals",
+    "concept": "conditionals",
     "keywords": [
       "py",
       "python",
@@ -221,7 +225,7 @@
     "title": "Loops",
     "description": "",
     "language": "Python",
-    "concept": "Loops",
+    "concept": "loops",
     "keywords": [
       "py",
       "python",
@@ -235,7 +239,7 @@
     "title": "Comments",
     "description": "",
     "language": "Python",
-    "concept": "Comments",
+    "concept": "comments",
     "keywords": [
       "py",
       "python",
@@ -249,7 +253,7 @@
     "title": "Operators",
     "description": "",
     "language": "Python",
-    "concept": "Operators",
+    "concept": "operators",
     "keywords": [
       "py",
       "python",
@@ -263,12 +267,13 @@
     "title": "Functions",
     "description": "",
     "language": "Python",
-    "concept": "Functions",
+    "concept": "functions",
     "keywords": [
       "py",
       "python",
+      "Python",
       "functions",
-      "methods"
+      "Functions"
     ],
     "path": "codepedia/entries/python/functions.md"
   },
@@ -276,7 +281,7 @@
     "title": "Data Types",
     "description": "",
     "language": "Python",
-    "concept": "Data Types",
+    "concept": "data_types",
     "keywords": [
       "py",
       "python",
@@ -290,7 +295,7 @@
     "title": "Variables",
     "description": "",
     "language": "Python",
-    "concept": "Variables",
+    "concept": "variables",
     "keywords": [
       "py",
       "python",
@@ -304,7 +309,7 @@
     "title": "Comments",
     "description": "",
     "language": "CSS",
-    "concept": "Comments",
+    "concept": "comments",
     "keywords": [
       "css",
       "css",
@@ -318,7 +323,7 @@
     "title": "Backgrounds",
     "description": "",
     "language": "CSS",
-    "concept": "Backgrounds",
+    "concept": "backgrounds",
     "keywords": [
       "css",
       "css",
@@ -332,7 +337,7 @@
     "title": "Selectors",
     "description": "",
     "language": "CSS",
-    "concept": "Selectors",
+    "concept": "selectors",
     "keywords": [
       "css",
       "css",
@@ -346,7 +351,7 @@
     "title": "Conditionals",
     "description": "",
     "language": "Rust",
-    "concept": "Conditionals",
+    "concept": "conditionals",
     "keywords": [
       "rust",
       "rust",
@@ -360,7 +365,7 @@
     "title": "Loops",
     "description": "",
     "language": "Rust",
-    "concept": "Loops",
+    "concept": "loops",
     "keywords": [
       "rust",
       "rust",
@@ -374,7 +379,7 @@
     "title": "Comments",
     "description": "",
     "language": "Rust",
-    "concept": "Comments",
+    "concept": "comments",
     "keywords": [
       "rust",
       "rust",
@@ -388,7 +393,7 @@
     "title": "Data Types",
     "description": "",
     "language": "Rust",
-    "concept": "Data Types",
+    "concept": "data_types",
     "keywords": [
       "rust",
       "rust",
@@ -402,7 +407,7 @@
     "title": "Loops",
     "description": "",
     "language": "Java",
-    "concept": "Loops",
+    "concept": "loops",
     "keywords": [
       "java",
       "java",
@@ -416,7 +421,7 @@
     "title": "Comments",
     "description": "",
     "language": "Java",
-    "concept": "Comments",
+    "concept": "comments",
     "keywords": [
       "java",
       "java",
@@ -430,7 +435,7 @@
     "title": "Operators",
     "description": "",
     "language": "Java",
-    "concept": "Operators",
+    "concept": "operators",
     "keywords": [
       "java",
       "java",
@@ -444,7 +449,7 @@
     "title": "Arrays",
     "description": "",
     "language": "Java",
-    "concept": "Arrays",
+    "concept": "arrays",
     "keywords": [
       "java",
       "java",
@@ -458,7 +463,7 @@
     "title": "Data Types",
     "description": "",
     "language": "Java",
-    "concept": "Data Types",
+    "concept": "data_types",
     "keywords": [
       "java",
       "java",
@@ -472,7 +477,7 @@
     "title": "Variables",
     "description": "",
     "language": "Java",
-    "concept": "Variables",
+    "concept": "variables",
     "keywords": [
       "java",
       "java",
@@ -500,7 +505,7 @@
     "title": "Comments",
     "description": "",
     "language": "HTML",
-    "concept": "Comments",
+    "concept": "comments",
     "keywords": [
       "html",
       "html",
@@ -514,7 +519,7 @@
     "title": "Attributes",
     "description": "",
     "language": "HTML",
-    "concept": "Attributes",
+    "concept": "attributes",
     "keywords": [
       "html",
       "html",
@@ -528,7 +533,7 @@
     "title": "Headings",
     "description": "",
     "language": "HTML",
-    "concept": "Headings",
+    "concept": "headings",
     "keywords": [
       "html",
       "html",
@@ -542,7 +547,7 @@
     "title": "Formatting",
     "description": "",
     "language": "HTML",
-    "concept": "Formatting",
+    "concept": "formatting",
     "keywords": [
       "html",
       "html",
@@ -556,7 +561,7 @@
     "title": "Elements",
     "description": "",
     "language": "HTML",
-    "concept": "Elements",
+    "concept": "elements",
     "keywords": [
       "html",
       "html",
@@ -570,7 +575,7 @@
     "title": "Paragraphs",
     "description": "",
     "language": "HTML",
-    "concept": "Paragraphs",
+    "concept": "paragraphs",
     "keywords": [
       "html",
       "html",
@@ -584,43 +589,43 @@
     "title": "Conditionals",
     "description": "",
     "language": "",
-    "concept": "Conditionals",
+    "concept": "conditionals",
     "keywords": [
       "",
-      "_",
+      "concept",
       "",
       "conditionals",
       "Conditionals"
     ],
-    "path": "codepedia/entries/_/conditionals.md"
+    "path": "codepedia/entries/concept/conditionals.md"
   },
   {
-    "title": "Syntax",
-    "description": "Syntax refers to the rules that define the structure of a language.",
+    "title": "syntax",
+    "description": "",
     "language": "",
     "concept": "syntax",
     "keywords": [
       "",
-      "_",
+      "concept",
       "",
       "syntax",
       "syntax"
     ],
-    "path": "codepedia/entries/_/syntax.md"
+    "path": "codepedia/entries/concept/syntax.md"
   },
   {
     "title": "Loops",
     "description": "",
     "language": "",
-    "concept": "Loops",
+    "concept": "loops",
     "keywords": [
       "",
-      "_",
+      "concept",
       "",
       "loops",
       "Loops"
     ],
-    "path": "codepedia/entries/_/loops.md"
+    "path": "codepedia/entries/concept/loops.md"
   },
   {
     "title": "example",
@@ -629,144 +634,144 @@
     "concept": "example",
     "keywords": [
       "",
-      "_",
+      "concept",
       "",
       "example",
       "example"
     ],
-    "path": "codepedia/entries/_/example.md"
+    "path": "codepedia/entries/concept/example.md"
   },
   {
     "title": "Comments",
     "description": "",
     "language": "",
-    "concept": "Comments",
+    "concept": "comments",
     "keywords": [
       "",
-      "_",
+      "concept",
       "",
       "comments",
       "Comments"
     ],
-    "path": "codepedia/entries/_/comments.md"
+    "path": "codepedia/entries/concept/comments.md"
   },
   {
     "title": "Low-Level Programming",
     "description": "",
     "language": "",
-    "concept": "Low-Level Programming",
+    "concept": "low_level_programming",
     "keywords": [
       "",
-      "_",
+      "concept",
       "",
       "low_level_programming",
       "Low-Level Programming"
     ],
-    "path": "codepedia/entries/_/low_level_programming.md"
+    "path": "codepedia/entries/concept/low_level_programming.md"
   },
   {
     "title": "Operators",
     "description": "",
     "language": "",
-    "concept": "Operators",
+    "concept": "operators",
     "keywords": [
       "",
-      "_",
+      "concept",
       "",
       "operators",
       "Operators"
     ],
-    "path": "codepedia/entries/_/operators.md"
+    "path": "codepedia/entries/concept/operators.md"
   },
   {
     "title": "Objects",
     "description": "",
     "language": "",
-    "concept": "Objects",
+    "concept": "objects",
     "keywords": [
       "",
-      "_",
+      "concept",
       "",
       "objects",
       "Objects"
     ],
-    "path": "codepedia/entries/_/objects.md"
+    "path": "codepedia/entries/concept/objects.md"
   },
   {
     "title": "Arrays",
     "description": "",
     "language": "",
-    "concept": "Arrays",
+    "concept": "arrays",
     "keywords": [
       "",
-      "_",
+      "concept",
       "",
       "arrays",
       "Arrays"
     ],
-    "path": "codepedia/entries/_/arrays.md"
+    "path": "codepedia/entries/concept/arrays.md"
   },
   {
     "title": "Functions",
     "description": "",
     "language": "",
-    "concept": "Functions",
+    "concept": "functions",
     "keywords": [
       "",
-      "_",
+      "concept",
       "",
       "functions",
       "Functions"
     ],
-    "path": "codepedia/entries/_/functions.md"
+    "path": "codepedia/entries/concept/functions.md"
   },
   {
     "title": "Data Types",
     "description": "",
     "language": "",
-    "concept": "Data Types",
+    "concept": "data_types",
     "keywords": [
       "",
-      "_",
+      "concept",
       "",
       "data_types",
       "Data Types"
     ],
-    "path": "codepedia/entries/_/data_types.md"
+    "path": "codepedia/entries/concept/data_types.md"
   },
   {
     "title": "Object-Oriented Programming",
     "description": "",
     "language": "",
-    "concept": "Object-Oriented Programming",
+    "concept": "object_oriented_programming",
     "keywords": [
       "",
-      "_",
+      "concept",
       "",
       "object_oriented_programming",
       "Object-Oriented Programming"
     ],
-    "path": "codepedia/entries/_/object_oriented_programming.md"
+    "path": "codepedia/entries/concept/object_oriented_programming.md"
   },
   {
     "title": "Variables",
     "description": "",
     "language": "",
-    "concept": "Variables",
+    "concept": "variables",
     "keywords": [
       "",
-      "_",
+      "concept",
       "",
       "variables",
       "Variables"
     ],
-    "path": "codepedia/entries/_/variables.md"
+    "path": "codepedia/entries/concept/variables.md"
   },
   {
     "title": "Conditionals",
     "description": "",
     "language": "JavaScript",
-    "concept": "Conditionals",
+    "concept": "conditionals",
     "keywords": [
       "js",
       "javascript",
@@ -780,7 +785,7 @@
     "title": "Loops",
     "description": "",
     "language": "JavaScript",
-    "concept": "Loops",
+    "concept": "loops",
     "keywords": [
       "js",
       "javascript",
@@ -808,7 +813,7 @@
     "title": "Comments",
     "description": "",
     "language": "JavaScript",
-    "concept": "Comments",
+    "concept": "comments",
     "keywords": [
       "js",
       "javascript",
@@ -822,7 +827,7 @@
     "title": "Operators",
     "description": "",
     "language": "JavaScript",
-    "concept": "Operators",
+    "concept": "operators",
     "keywords": [
       "js",
       "javascript",
@@ -836,7 +841,7 @@
     "title": "Objects",
     "description": "",
     "language": "JavaScript",
-    "concept": "Objects",
+    "concept": "objects",
     "keywords": [
       "js",
       "javascript",
@@ -850,7 +855,7 @@
     "title": "Arrays",
     "description": "",
     "language": "JavaScript",
-    "concept": "Arrays",
+    "concept": "arrays",
     "keywords": [
       "js",
       "javascript",
@@ -864,7 +869,7 @@
     "title": "Functions",
     "description": "",
     "language": "JavaScript",
-    "concept": "Functions",
+    "concept": "functions",
     "keywords": [
       "js",
       "javascript",
@@ -878,7 +883,7 @@
     "title": "Data Types",
     "description": "",
     "language": "JavaScript",
-    "concept": "Data Types",
+    "concept": "data_types",
     "keywords": [
       "js",
       "javascript",
@@ -892,7 +897,7 @@
     "title": "Variables",
     "description": "",
     "language": "JavaScript",
-    "concept": "Variables",
+    "concept": "variables",
     "keywords": [
       "js",
       "javascript",
@@ -906,7 +911,7 @@
     "title": "Comments",
     "description": "",
     "language": "Ruby",
-    "concept": "Comments",
+    "concept": "comments",
     "keywords": [
       "rb",
       "ruby",
@@ -920,7 +925,7 @@
     "title": "Arrays",
     "description": "",
     "language": "Ruby",
-    "concept": "Arrays",
+    "concept": "arrays",
     "keywords": [
       "rb",
       "ruby",
@@ -934,7 +939,7 @@
     "title": "Conditionals",
     "description": "",
     "language": "SQL",
-    "concept": "Conditionals",
+    "concept": "conditionals",
     "keywords": [
       "sql",
       "sql",
@@ -948,7 +953,7 @@
     "title": "Comments",
     "description": "",
     "language": "SQL",
-    "concept": "Comments",
+    "concept": "comments",
     "keywords": [
       "sql",
       "sql",
@@ -962,7 +967,7 @@
     "title": "Functions",
     "description": "",
     "language": "SQL",
-    "concept": "Functions",
+    "concept": "functions",
     "keywords": [
       "sql",
       "sql",

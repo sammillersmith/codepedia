@@ -58,7 +58,7 @@ const getFiles = async (folder) => {
 const copyFile = async (folder, file, map) => {
     let languageId = "";
     let languageName = ""
-    let language = "_"
+    let language = "concept"
 
 
     const namePieces = file.split(".");
