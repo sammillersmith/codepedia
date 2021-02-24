@@ -2,12 +2,13 @@
   "title": "Functions",
   "description": "",
   "language": "Python",
-  "concept": "Functions",
+  "concept": "functions",
   "keywords": [
     "py",
     "python",
+    "Python",
     "functions",
-    "methods"
+    "Functions"
   ],
   "path": "codepedia/entries/python/functions.md"
 }

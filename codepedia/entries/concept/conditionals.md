@@ -1,4 +1,4 @@
-# Conditionals Explained
+# Condtionals Explained
 
 In computer science, _conditional statements_ are features of a programming language, which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to `true` or `false`.
 

@@ -41,7 +41,7 @@ const collectDetails = async () => {
         title: "",
         description: "",
         keywords: [],
-        language: "_",
+        language: "concept",
         concept: ""
     }
 
@@ -73,7 +73,7 @@ const collectLanguage = async () => {
 
         const folder = await fs.promises.opendir(`./codepedia/entries`);
         for await (const f of folder) {
-            if (f.isDirectory() && f.name !== "_") {
+            if (f.isDirectory() && f.name !== "concept") {
                 console.log("      -", f.name)
             }
         }
@@ -81,7 +81,7 @@ const collectLanguage = async () => {
 
         language = await collectLanguage();
     }
-    return language || "_";
+    return language || "concept";
 }
 
 const collectTitle = async () => {
