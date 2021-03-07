@@ -2,10 +2,10 @@
 {  
   "Type of entry": "glossary",
   "Language": "",
-  "Glossary Name": ""
-  "Search Terms": ["a search term", "a second search term", "etc"]
-  "Catalog Content":["https://www.codepedia.com/example", "https://www.codepedia.com/example"]
-  "Runnable Code?": ["desired"/"null"]
+  "Glossary Name": "",
+  "Search Terms": ["a search term", "a second search term", "etc"],
+  "Catalog Content":["https://www.codepedia.com/example", "https://www.codepedia.com/example"],
+  "Runnable Code?": ["desired"/"null"],
   "Sandbox?": ["desired"/"null"]
 }
 -->
