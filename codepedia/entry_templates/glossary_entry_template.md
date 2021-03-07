@@ -12,14 +12,8 @@
 
 # Title (30 characters or fewer unless absolutely necessary)
 
-## Subheading 1
-
-Text about subheading 1
-
-## Subheading 2
-
-Text about subheading 2
-
-## Subheading n
-
-Text about subheading n
+| | |
+| ----------- | ----------- |
+| Field1      | text        |
+| Field1      | text        |
+| Fieldn      | text        |
