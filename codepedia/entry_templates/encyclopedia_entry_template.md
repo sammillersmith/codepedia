@@ -1,3 +1,4 @@
+<!--
 {  
   "Type of entry": "encyclopedia",
   "Language": "   ",
@@ -6,6 +7,7 @@
   "Runnable Code?": ["desired"/"null"]
   "Sandbox?": ["desired"/"null"]
 }
+-->
 
 # Title (30 characters or fewer unless absolutely necessary)
 
