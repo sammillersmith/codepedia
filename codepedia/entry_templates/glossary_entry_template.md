@@ -10,10 +10,16 @@
 }
 -->
 
-# Title (30 characters or fewer unless absolutely necessary)
+# [Title] (30 characters or fewer unless absolutely necessary)
 
-| | |
-| ----------- | ----------- |
-| Field1      | text        |
-| Field1      | text        |
-| Fieldn      | text        |
+## Definition 
+[A brief definition of the topic. Should be 160 characters or fewer, including spaces, unless absolutely necessary.]
+
+## Field 1
+[Text, code, images, etc. about field 1]
+
+## Field 2
+[Text, code, images, etc. about field 2]
+
+## Field n
+[Text, code, images, etc. about field n]
