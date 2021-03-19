@@ -9,16 +9,18 @@
 }
 -->
 
-# Title (30 characters or fewer unless absolutely necessary)
+# [Title] (30 characters or fewer unless absolutely necessary)
 
-## Subheading 1 (This section will appear as the description of the page when it shows up on search engines. It's important!)
+[Introduction] (The first 160 characters of this section will appear as the description of the page when it shows up on search engines. It's important!)
 
-Text about subheading 1
+## Subsection 1
 
-## Subheading 2
+[Text about subsection 1]
 
-Text about subheading 2
+## Subsection 2
 
-## Subheading n
+[Text about subsection 2]
 
-Text about subheading n
+## Subsection n
+
+[Text about subsection n]
