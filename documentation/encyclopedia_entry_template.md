@@ -2,7 +2,7 @@
 {  
   "Type of entry": "encyclopedia",
   "Language": "",
-  "Search Terms": ["a search term", "a second search term", "etc"],
+  "Keywords": ["a keyword", "a second keyword", "etc"],
   "Catalog Content":["https://www.codepedia.com/example", "https://www.codepedia.com/example"],
   "Runnable Code?": ["desired"/"null"],
   "Sandbox?": ["desired"/"null"]
