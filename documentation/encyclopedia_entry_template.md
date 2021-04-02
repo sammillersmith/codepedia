@@ -2,8 +2,9 @@
 {  
   "Type of entry": "encyclopedia",
   "Language": "",
+  "Subject": "",
   "Keywords": ["a keyword", "a second keyword", "etc"],
-  "Catalog Content":["https://www.codepedia.com/example", "https://www.codepedia.com/example"],
+  "Catalog Content":["https://www.codecademy.com/example", "https://www.codecademy.com/example"],
   "Sandbox?": ["desired"/"null"]
 }
 -->
