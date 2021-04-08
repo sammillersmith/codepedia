@@ -1,13 +1,14 @@
 <!--
-{  
-  "Type of entry": "glossary",
-  "Glossary Name": "",
-  "Language": "",
-  "Subject": "",
-  "Keywords": ["a keyword", "a second keyword", "etc"],
-  "Catalog Content":["https://www.codecademy.com/example", "https://www.codecademy.com/example"],
-  "Sandbox?": ["desired"/"null"]
-}
+---
+Subject: "subject name",
+Tags: 
+  - "a tag"
+  - "a second tag"
+  - "an nth tag"
+Catalog Content:
+  - "https://www.codecademy.com/example1"
+  - "https://www.codecademy.com/examplen"
+---
 -->
 
 # [Title] (30 characters or fewer unless absolutely necessary)
